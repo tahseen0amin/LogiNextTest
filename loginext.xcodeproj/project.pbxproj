@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		466198DF23D1C5D700DC9842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198DE23D1C5D700DC9842 /* AppDelegate.swift */; };
 		466198E123D1C5D700DC9842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198E023D1C5D700DC9842 /* SceneDelegate.swift */; };
-		466198E323D1C5D700DC9842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198E223D1C5D700DC9842 /* ViewController.swift */; };
 		466198E623D1C5D700DC9842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466198E423D1C5D700DC9842 /* Main.storyboard */; };
 		466198E923D1C5D700DC9842 /* loginext.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 466198E723D1C5D700DC9842 /* loginext.xcdatamodeld */; };
 		466198EB23D1C5DE00DC9842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466198EA23D1C5DE00DC9842 /* Assets.xcassets */; };
@@ -31,7 +30,6 @@
 		466198DB23D1C5D700DC9842 /* loginext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466198DE23D1C5D700DC9842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466198E023D1C5D700DC9842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		466198E223D1C5D700DC9842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		466198E523D1C5D700DC9842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		466198E823D1C5D700DC9842 /* loginext.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = loginext.xcdatamodel; sourceTree = "<group>"; };
 		466198EA23D1C5DE00DC9842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,14 +79,11 @@
 		466198DD23D1C5D700DC9842 /* loginext */ = {
 			isa = PBXGroup;
 			children = (
-				466198DE23D1C5D700DC9842 /* AppDelegate.swift */,
-				466198E023D1C5D700DC9842 /* SceneDelegate.swift */,
-				466198E223D1C5D700DC9842 /* ViewController.swift */,
-				466198E423D1C5D700DC9842 /* Main.storyboard */,
-				466198EA23D1C5DE00DC9842 /* Assets.xcassets */,
-				466198EC23D1C5DE00DC9842 /* LaunchScreen.storyboard */,
+				4661990623D1C6FF00DC9842 /* Core Data */,
+				4661990523D1C6EE00DC9842 /* Storyboards */,
+				4661990423D1C6DF00DC9842 /* Resources */,
+				4661990323D1C67000DC9842 /* App Launch */,
 				466198EF23D1C5DE00DC9842 /* Info.plist */,
-				466198E723D1C5D700DC9842 /* loginext.xcdatamodeld */,
 			);
 			path = loginext;
 			sourceTree = "<group>";
@@ -100,6 +95,40 @@
 				466198FA23D1C5DE00DC9842 /* Info.plist */,
 			);
 			path = loginextTests;
+			sourceTree = "<group>";
+		};
+		4661990323D1C67000DC9842 /* App Launch */ = {
+			isa = PBXGroup;
+			children = (
+				466198DE23D1C5D700DC9842 /* AppDelegate.swift */,
+				466198E023D1C5D700DC9842 /* SceneDelegate.swift */,
+			);
+			path = "App Launch";
+			sourceTree = "<group>";
+		};
+		4661990423D1C6DF00DC9842 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				466198EA23D1C5DE00DC9842 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4661990523D1C6EE00DC9842 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				466198EC23D1C5DE00DC9842 /* LaunchScreen.storyboard */,
+				466198E423D1C5D700DC9842 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4661990623D1C6FF00DC9842 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				466198E723D1C5D700DC9842 /* loginext.xcdatamodeld */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +232,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466198E323D1C5D700DC9842 /* ViewController.swift in Sources */,
 				466198DF23D1C5D700DC9842 /* AppDelegate.swift in Sources */,
 				466198E123D1C5D700DC9842 /* SceneDelegate.swift in Sources */,
 				466198E923D1C5D700DC9842 /* loginext.xcdatamodeld in Sources */,
@@ -376,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = apps.tasin.loginext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,7 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = apps.tasin.loginext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
