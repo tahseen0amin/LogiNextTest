@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C3903AE67F0905597DAD3F /* Pods_loginextTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C5CC426B3E76F5BDB64028 /* Pods_loginextTests.framework */; };
+		218D91942E17BD47D4B497CD /* Pods_loginext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5957A33EC0CDA935EC0864C /* Pods_loginext.framework */; };
 		466198DF23D1C5D700DC9842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198DE23D1C5D700DC9842 /* AppDelegate.swift */; };
 		466198E123D1C5D700DC9842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198E023D1C5D700DC9842 /* SceneDelegate.swift */; };
 		466198E623D1C5D700DC9842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466198E423D1C5D700DC9842 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		466198EB23D1C5DE00DC9842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466198EA23D1C5DE00DC9842 /* Assets.xcassets */; };
 		466198EE23D1C5DE00DC9842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466198EC23D1C5DE00DC9842 /* LaunchScreen.storyboard */; };
 		466198F923D1C5DE00DC9842 /* loginextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198F823D1C5DE00DC9842 /* loginextTests.swift */; };
+		4661990923D1C81A00DC9842 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4661990823D1C81A00DC9842 /* GoogleService-Info.plist */; };
+		4661990A23D1C81A00DC9842 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4661990823D1C81A00DC9842 /* GoogleService-Info.plist */; };
+		4661990E23D1CA0C00DC9842 /* FirebaseDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661990D23D1CA0C00DC9842 /* FirebaseDBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19C5CC426B3E76F5BDB64028 /* Pods_loginextTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loginextTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		466198DB23D1C5D700DC9842 /* loginext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466198DE23D1C5D700DC9842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466198E023D1C5D700DC9842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,13 @@
 		466198F423D1C5DE00DC9842 /* loginextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466198F823D1C5DE00DC9842 /* loginextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginextTests.swift; sourceTree = "<group>"; };
 		466198FA23D1C5DE00DC9842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4661990823D1C81A00DC9842 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4661990D23D1CA0C00DC9842 /* FirebaseDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDBManager.swift; sourceTree = "<group>"; };
+		4A5927F1677EC9A34C116950 /* Pods-loginextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginextTests.release.xcconfig"; path = "Target Support Files/Pods-loginextTests/Pods-loginextTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4A98886B77E77C08813891F /* Pods-loginextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginextTests.debug.xcconfig"; path = "Target Support Files/Pods-loginextTests/Pods-loginextTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51311F5BD2D23F5E0FF3605 /* Pods-loginext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginext.debug.xcconfig"; path = "Target Support Files/Pods-loginext/Pods-loginext.debug.xcconfig"; sourceTree = "<group>"; };
+		D5957A33EC0CDA935EC0864C /* Pods_loginext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loginext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D8ECA0107F7BED9DB74AF2 /* Pods-loginext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginext.release.xcconfig"; path = "Target Support Files/Pods-loginext/Pods-loginext.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218D91942E17BD47D4B497CD /* Pods_loginext.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +66,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C3903AE67F0905597DAD3F /* Pods_loginextTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192A9614D261F521A2F31D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5957A33EC0CDA935EC0864C /* Pods_loginext.framework */,
+				19C5CC426B3E76F5BDB64028 /* Pods_loginextTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		466198D223D1C5D700DC9842 = {
 			isa = PBXGroup;
 			children = (
 				466198DD23D1C5D700DC9842 /* loginext */,
 				466198F723D1C5DE00DC9842 /* loginextTests */,
 				466198DC23D1C5D700DC9842 /* Products */,
+				B5FDEB9F640600469690B776 /* Pods */,
+				192A9614D261F521A2F31D3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +105,13 @@
 		466198DD23D1C5D700DC9842 /* loginext */ = {
 			isa = PBXGroup;
 			children = (
+				4661990B23D1C9DB00DC9842 /* Classes */,
 				4661990623D1C6FF00DC9842 /* Core Data */,
 				4661990523D1C6EE00DC9842 /* Storyboards */,
 				4661990423D1C6DF00DC9842 /* Resources */,
 				4661990323D1C67000DC9842 /* App Launch */,
 				466198EF23D1C5DE00DC9842 /* Info.plist */,
+				4661990823D1C81A00DC9842 /* GoogleService-Info.plist */,
 			);
 			path = loginext;
 			sourceTree = "<group>";
@@ -131,6 +159,33 @@
 			path = "Core Data";
 			sourceTree = "<group>";
 		};
+		4661990B23D1C9DB00DC9842 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4661990C23D1C9E500DC9842 /* Firebase Database */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4661990C23D1C9E500DC9842 /* Firebase Database */ = {
+			isa = PBXGroup;
+			children = (
+				4661990D23D1CA0C00DC9842 /* FirebaseDBManager.swift */,
+			);
+			path = "Firebase Database";
+			sourceTree = "<group>";
+		};
+		B5FDEB9F640600469690B776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D51311F5BD2D23F5E0FF3605 /* Pods-loginext.debug.xcconfig */,
+				F2D8ECA0107F7BED9DB74AF2 /* Pods-loginext.release.xcconfig */,
+				A4A98886B77E77C08813891F /* Pods-loginextTests.debug.xcconfig */,
+				4A5927F1677EC9A34C116950 /* Pods-loginextTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 466198FD23D1C5DE00DC9842 /* Build configuration list for PBXNativeTarget "loginext" */;
 			buildPhases = (
+				7D29CBACD41488CFEB3DEE17 /* [CP] Check Pods Manifest.lock */,
 				466198D723D1C5D700DC9842 /* Sources */,
 				466198D823D1C5D700DC9842 /* Frameworks */,
 				466198D923D1C5D700DC9842 /* Resources */,
+				2B553AE4058BA7755BC9E366 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4661990023D1C5DE00DC9842 /* Build configuration list for PBXNativeTarget "loginextTests" */;
 			buildPhases = (
+				5CFC99CE70E8A811C3E7BBB5 /* [CP] Check Pods Manifest.lock */,
 				466198F023D1C5DE00DC9842 /* Sources */,
 				466198F123D1C5DE00DC9842 /* Frameworks */,
 				466198F223D1C5DE00DC9842 /* Resources */,
@@ -213,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				466198EE23D1C5DE00DC9842 /* LaunchScreen.storyboard in Resources */,
+				4661990923D1C81A00DC9842 /* GoogleService-Info.plist in Resources */,
 				466198EB23D1C5DE00DC9842 /* Assets.xcassets in Resources */,
 				466198E623D1C5D700DC9842 /* Main.storyboard in Resources */,
 			);
@@ -222,16 +281,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4661990A23D1C81A00DC9842 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B553AE4058BA7755BC9E366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-loginext/Pods-loginext-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-loginext/Pods-loginext-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-loginext/Pods-loginext-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFC99CE70E8A811C3E7BBB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loginextTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D29CBACD41488CFEB3DEE17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loginext-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		466198D723D1C5D700DC9842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4661990E23D1CA0C00DC9842 /* FirebaseDBManager.swift in Sources */,
 				466198DF23D1C5D700DC9842 /* AppDelegate.swift in Sources */,
 				466198E123D1C5D700DC9842 /* SceneDelegate.swift in Sources */,
 				466198E923D1C5D700DC9842 /* loginext.xcdatamodeld in Sources */,
@@ -392,6 +517,7 @@
 		};
 		466198FE23D1C5DE00DC9842 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51311F5BD2D23F5E0FF3605 /* Pods-loginext.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -410,6 +536,7 @@
 		};
 		466198FF23D1C5DE00DC9842 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D8ECA0107F7BED9DB74AF2 /* Pods-loginext.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,6 +555,7 @@
 		};
 		4661990123D1C5DE00DC9842 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A98886B77E77C08813891F /* Pods-loginextTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +578,7 @@
 		};
 		4661990223D1C5DE00DC9842 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5927F1677EC9A34C116950 /* Pods-loginextTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
