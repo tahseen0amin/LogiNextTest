@@ -8,6 +8,7 @@
 
 import UIKit
 
+/** Making sure to run setup. covers controller if instantiated via storyboard or nib*/
 class BaseViewController: UIViewController {
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {

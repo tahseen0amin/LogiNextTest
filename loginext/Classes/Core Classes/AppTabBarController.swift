@@ -8,12 +8,12 @@
 
 import UIKit
 
+/** Best Idea to have one class for navigation controller. Will be used for deep linking */
 class AppTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
 }
