@@ -16,9 +16,26 @@
 		466198EB23D1C5DE00DC9842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466198EA23D1C5DE00DC9842 /* Assets.xcassets */; };
 		466198EE23D1C5DE00DC9842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466198EC23D1C5DE00DC9842 /* LaunchScreen.storyboard */; };
 		466198F923D1C5DE00DC9842 /* loginextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466198F823D1C5DE00DC9842 /* loginextTests.swift */; };
-		4661990923D1C81A00DC9842 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4661990823D1C81A00DC9842 /* GoogleService-Info.plist */; };
-		4661990A23D1C81A00DC9842 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4661990823D1C81A00DC9842 /* GoogleService-Info.plist */; };
 		4661990E23D1CA0C00DC9842 /* FirebaseDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661990D23D1CA0C00DC9842 /* FirebaseDBManager.swift */; };
+		4661991223D1D18900DC9842 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4661991123D1D18900DC9842 /* GoogleService-Info.plist */; };
+		4661991723D1DB9900DC9842 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661991623D1DB9900DC9842 /* MainNavigationViewController.swift */; };
+		4661991A23D1DBEF00DC9842 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661991923D1DBEF00DC9842 /* Order.swift */; };
+		4661992423D1F7C500DC9842 /* OrderListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661991E23D1F7C500DC9842 /* OrderListPresenter.swift */; };
+		4661992523D1F7C500DC9842 /* OrderListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661991F23D1F7C500DC9842 /* OrderListWorker.swift */; };
+		4661992623D1F7C500DC9842 /* OrderListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992023D1F7C500DC9842 /* OrderListRouter.swift */; };
+		4661992723D1F7C500DC9842 /* OrderListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992123D1F7C500DC9842 /* OrderListModels.swift */; };
+		4661992823D1F7C500DC9842 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992223D1F7C500DC9842 /* OrderListViewController.swift */; };
+		4661992923D1F7C500DC9842 /* OrderListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992323D1F7C500DC9842 /* OrderListInteractor.swift */; };
+		4661992C23D1F8B800DC9842 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992B23D1F8B800DC9842 /* BaseViewController.swift */; };
+		4661992E23D2058600DC9842 /* OrderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992D23D2058600DC9842 /* OrderListCell.swift */; };
+		4661993023D2071A00DC9842 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661992F23D2071A00DC9842 /* AppTabBarController.swift */; };
+		4661993323D3AB1A00DC9842 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661993123D3AB1A00DC9842 /* OrderDetailsViewController.swift */; };
+		4661993623D599B400DC9842 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661993523D599B400DC9842 /* AppTheme.swift */; };
+		4661993823D59CFE00DC9842 /* LoginextStatusPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661993723D59CFE00DC9842 /* LoginextStatusPicker.swift */; };
+		4661993A23D5D8FB00DC9842 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661993923D5D8FB00DC9842 /* MapKit.framework */; };
+		4661993C23D5E83A00DC9842 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661993B23D5E83A00DC9842 /* Annotation.swift */; };
+		4661993E23D5ECC400DC9842 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661993D23D5ECC400DC9842 /* TrackerViewController.swift */; };
+		4661994023D5EE0E00DC9842 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661993F23D5EE0E00DC9842 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +61,26 @@
 		466198F423D1C5DE00DC9842 /* loginextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466198F823D1C5DE00DC9842 /* loginextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginextTests.swift; sourceTree = "<group>"; };
 		466198FA23D1C5DE00DC9842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4661990823D1C81A00DC9842 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4661990D23D1CA0C00DC9842 /* FirebaseDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDBManager.swift; sourceTree = "<group>"; };
+		4661991123D1D18900DC9842 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4661991623D1DB9900DC9842 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		4661991923D1DBEF00DC9842 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4661991E23D1F7C500DC9842 /* OrderListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListPresenter.swift; sourceTree = "<group>"; };
+		4661991F23D1F7C500DC9842 /* OrderListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListWorker.swift; sourceTree = "<group>"; };
+		4661992023D1F7C500DC9842 /* OrderListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListRouter.swift; sourceTree = "<group>"; };
+		4661992123D1F7C500DC9842 /* OrderListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListModels.swift; sourceTree = "<group>"; };
+		4661992223D1F7C500DC9842 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		4661992323D1F7C500DC9842 /* OrderListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListInteractor.swift; sourceTree = "<group>"; };
+		4661992B23D1F8B800DC9842 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4661992D23D2058600DC9842 /* OrderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListCell.swift; sourceTree = "<group>"; };
+		4661992F23D2071A00DC9842 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		4661993123D3AB1A00DC9842 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		4661993523D599B400DC9842 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		4661993723D59CFE00DC9842 /* LoginextStatusPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginextStatusPicker.swift; sourceTree = "<group>"; };
+		4661993923D5D8FB00DC9842 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4661993B23D5E83A00DC9842 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		4661993D23D5ECC400DC9842 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		4661993F23D5EE0E00DC9842 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4A5927F1677EC9A34C116950 /* Pods-loginextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginextTests.release.xcconfig"; path = "Target Support Files/Pods-loginextTests/Pods-loginextTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4A98886B77E77C08813891F /* Pods-loginextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginextTests.debug.xcconfig"; path = "Target Support Files/Pods-loginextTests/Pods-loginextTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D51311F5BD2D23F5E0FF3605 /* Pods-loginext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginext.debug.xcconfig"; path = "Target Support Files/Pods-loginext/Pods-loginext.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4661993A23D5D8FB00DC9842 /* MapKit.framework in Frameworks */,
 				218D91942E17BD47D4B497CD /* Pods_loginext.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +112,7 @@
 		192A9614D261F521A2F31D3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4661993923D5D8FB00DC9842 /* MapKit.framework */,
 				D5957A33EC0CDA935EC0864C /* Pods_loginext.framework */,
 				19C5CC426B3E76F5BDB64028 /* Pods_loginextTests.framework */,
 			);
@@ -111,7 +148,7 @@
 				4661990423D1C6DF00DC9842 /* Resources */,
 				4661990323D1C67000DC9842 /* App Launch */,
 				466198EF23D1C5DE00DC9842 /* Info.plist */,
-				4661990823D1C81A00DC9842 /* GoogleService-Info.plist */,
+				4661991123D1D18900DC9842 /* GoogleService-Info.plist */,
 			);
 			path = loginext;
 			sourceTree = "<group>";
@@ -162,6 +199,9 @@
 		4661990B23D1C9DB00DC9842 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4661991423D1D3DE00DC9842 /* Scenes */,
+				4661991523D1D3F100DC9842 /* Core Classes */,
+				4661991323D1D3A800DC9842 /* Helpers */,
 				4661990C23D1C9E500DC9842 /* Firebase Database */,
 			);
 			path = Classes;
@@ -170,9 +210,87 @@
 		4661990C23D1C9E500DC9842 /* Firebase Database */ = {
 			isa = PBXGroup;
 			children = (
+				4661991823D1DBCC00DC9842 /* Data models */,
 				4661990D23D1CA0C00DC9842 /* FirebaseDBManager.swift */,
 			);
 			path = "Firebase Database";
+			sourceTree = "<group>";
+		};
+		4661991323D1D3A800DC9842 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4661993523D599B400DC9842 /* AppTheme.swift */,
+				4661993723D59CFE00DC9842 /* LoginextStatusPicker.swift */,
+				4661993F23D5EE0E00DC9842 /* LocationManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4661991423D1D3DE00DC9842 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4661991B23D1F4F700DC9842 /* Order List */,
+				4661991C23D1F51A00DC9842 /* Order Details */,
+				4661991D23D1F52A00DC9842 /* Location Tracker */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4661991523D1D3F100DC9842 /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4661991623D1DB9900DC9842 /* MainNavigationViewController.swift */,
+				4661992B23D1F8B800DC9842 /* BaseViewController.swift */,
+				4661992F23D2071A00DC9842 /* AppTabBarController.swift */,
+				4661993B23D5E83A00DC9842 /* Annotation.swift */,
+			);
+			path = "Core Classes";
+			sourceTree = "<group>";
+		};
+		4661991823D1DBCC00DC9842 /* Data models */ = {
+			isa = PBXGroup;
+			children = (
+				4661991923D1DBEF00DC9842 /* Order.swift */,
+			);
+			path = "Data models";
+			sourceTree = "<group>";
+		};
+		4661991B23D1F4F700DC9842 /* Order List */ = {
+			isa = PBXGroup;
+			children = (
+				4661992223D1F7C500DC9842 /* OrderListViewController.swift */,
+				4661992A23D1F82400DC9842 /* Views */,
+				4661991E23D1F7C500DC9842 /* OrderListPresenter.swift */,
+				4661991F23D1F7C500DC9842 /* OrderListWorker.swift */,
+				4661992023D1F7C500DC9842 /* OrderListRouter.swift */,
+				4661992123D1F7C500DC9842 /* OrderListModels.swift */,
+				4661992323D1F7C500DC9842 /* OrderListInteractor.swift */,
+			);
+			path = "Order List";
+			sourceTree = "<group>";
+		};
+		4661991C23D1F51A00DC9842 /* Order Details */ = {
+			isa = PBXGroup;
+			children = (
+				4661993123D3AB1A00DC9842 /* OrderDetailsViewController.swift */,
+			);
+			path = "Order Details";
+			sourceTree = "<group>";
+		};
+		4661991D23D1F52A00DC9842 /* Location Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				4661993D23D5ECC400DC9842 /* TrackerViewController.swift */,
+			);
+			path = "Location Tracker";
+			sourceTree = "<group>";
+		};
+		4661992A23D1F82400DC9842 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4661992D23D2058600DC9842 /* OrderListCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B5FDEB9F640600469690B776 /* Pods */ = {
@@ -271,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				466198EE23D1C5DE00DC9842 /* LaunchScreen.storyboard in Resources */,
-				4661990923D1C81A00DC9842 /* GoogleService-Info.plist in Resources */,
+				4661991223D1D18900DC9842 /* GoogleService-Info.plist in Resources */,
 				466198EB23D1C5DE00DC9842 /* Assets.xcassets in Resources */,
 				466198E623D1C5D700DC9842 /* Main.storyboard in Resources */,
 			);
@@ -281,7 +399,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4661990A23D1C81A00DC9842 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +473,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4661993623D599B400DC9842 /* AppTheme.swift in Sources */,
+				4661992E23D2058600DC9842 /* OrderListCell.swift in Sources */,
+				4661992C23D1F8B800DC9842 /* BaseViewController.swift in Sources */,
+				4661991A23D1DBEF00DC9842 /* Order.swift in Sources */,
+				4661993023D2071A00DC9842 /* AppTabBarController.swift in Sources */,
+				4661993E23D5ECC400DC9842 /* TrackerViewController.swift in Sources */,
+				4661991723D1DB9900DC9842 /* MainNavigationViewController.swift in Sources */,
+				4661992523D1F7C500DC9842 /* OrderListWorker.swift in Sources */,
+				4661992823D1F7C500DC9842 /* OrderListViewController.swift in Sources */,
+				4661992423D1F7C500DC9842 /* OrderListPresenter.swift in Sources */,
+				4661993C23D5E83A00DC9842 /* Annotation.swift in Sources */,
+				4661993323D3AB1A00DC9842 /* OrderDetailsViewController.swift in Sources */,
 				4661990E23D1CA0C00DC9842 /* FirebaseDBManager.swift in Sources */,
 				466198DF23D1C5D700DC9842 /* AppDelegate.swift in Sources */,
 				466198E123D1C5D700DC9842 /* SceneDelegate.swift in Sources */,
+				4661993823D59CFE00DC9842 /* LoginextStatusPicker.swift in Sources */,
+				4661992623D1F7C500DC9842 /* OrderListRouter.swift in Sources */,
+				4661994023D5EE0E00DC9842 /* LocationManager.swift in Sources */,
+				4661992723D1F7C500DC9842 /* OrderListModels.swift in Sources */,
 				466198E923D1C5D700DC9842 /* loginext.xcdatamodeld in Sources */,
+				4661992923D1F7C500DC9842 /* OrderListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,8 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FirebaseApp.configure()
-        
+        let _ = FirebaseDBManager.shared
+        LocationManager.shared.startTimer()
         return true
+    }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        LocationManager.shared.stopTimer()
     }
 
     // MARK: UISceneSession Lifecycle
